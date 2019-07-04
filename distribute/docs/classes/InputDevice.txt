@@ -1,0 +1,11 @@
+Return the name of the input device.
+	InputDevice:GetName()
+	
+Return the enum_device type of the event.
+	InputDevice:GetType()
+	
+Return whether an enum_key is down.
+	InputDevice:IsKeyDown(enum_key Key)
+	
+Return whether the input device is null.
+	InputDevice:IsNull()

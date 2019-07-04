@@ -1,0 +1,11 @@
+Construct a new FontObject object.
+	FontObject(FontDescription FontDescription)
+	
+Return the size of some text as a Size.
+	FontObject:GetTextSize(string Text)
+	
+Draw some text on the screen.
+	FontObject:DrawText(float X, float Y, string Text, Color Color)
+
+Return whether the font object is null.
+	FontObject:IsNull()

@@ -1,0 +1,8 @@
+Returns the current delta time.
+	time:GetDT()
+	
+Returns the current FPS.
+	time:GetFPS()
+	
+Returns the current time in seconds.
+	time:CurTime()

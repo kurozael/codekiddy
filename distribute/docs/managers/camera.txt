@@ -1,0 +1,26 @@
+Snap the camera's position to the bounds.
+	camera:SnapPosition()
+	
+Returns the real position of the camera.
+	camera:GetRealPos()
+
+Set the position of the camera.
+	camera:SetPos(Vec2 Position)
+	
+Returns the position of the camera.
+	camera:GetPos()
+	
+Center the camera on a position.
+	camera:Center(Vec2 Position)
+	
+Begin drawing to the camera.
+	camera:Begin()
+	
+Finish drawing to the camera.
+	camera:Finish()
+	
+Set the bounds of the camera.
+	camera:SetBounds(Rect Rect)
+	
+Reset the camera's settings.
+	camera:Reset();

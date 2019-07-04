@@ -1,0 +1,6 @@
+Construct a new Size object.
+	Size(float X, float Y)
+
+Member variables of a Size object.
+	Size.w
+	Size.h

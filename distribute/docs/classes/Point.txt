@@ -1,0 +1,6 @@
+Construct a new Point object.
+	Point(float X, float Y)
+
+Member variables of a Point object.
+	Point.x
+	Point.y

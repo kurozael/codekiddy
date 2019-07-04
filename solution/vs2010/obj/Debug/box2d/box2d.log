@@ -1,0 +1,84 @@
+﻿Build started 30/07/2013 21:05:33.
+     1>Project "C:\Users\Conna\Documents\GitHub\codekiddy\solution\vs2010\box2d.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\depends\box2d\include /nologo /W3 /WX- /Od /Oy- /Gm- /EHsc /RTC1 /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\box2d\\" /Fd"obj\Debug\box2d\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\depends\box2d\source\b2BlockAllocator.cpp ..\..\depends\box2d\source\b2Body.cpp ..\..\depends\box2d\source\b2BroadPhase.cpp ..\..\depends\box2d\source\b2CircleContact.cpp ..\..\depends\box2d\source\b2CircleShape.cpp ..\..\depends\box2d\source\b2CollideCircle.cpp ..\..\depends\box2d\source\b2CollidePolygon.cpp ..\..\depends\box2d\source\b2Collision.cpp ..\..\depends\box2d\source\b2Contact.cpp ..\..\depends\box2d\source\b2ContactManager.cpp ..\..\depends\box2d\source\b2ContactSolver.cpp ..\..\depends\box2d\source\b2Distance.cpp ..\..\depends\box2d\source\b2DistanceJoint.cpp ..\..\depends\box2d\source\b2DynamicTree.cpp ..\..\depends\box2d\source\b2Fixture.cpp ..\..\depends\box2d\source\b2FrictionJoint.cpp ..\..\depends\box2d\source\b2GearJoint.cpp ..\..\depends\box2d\source\b2Island.cpp ..\..\depends\box2d\source\b2Joint.cpp ..\..\depends\box2d\source\b2LineJoint.cpp ..\..\depends\box2d\source\b2Math.cpp ..\..\depends\box2d\source\b2MouseJoint.cpp ..\..\depends\box2d\source\b2PolygonAndCircleContact.cpp ..\..\depends\box2d\source\b2PolygonContact.cpp ..\..\depends\box2d\source\b2PolygonShape.cpp ..\..\depends\box2d\source\b2PrismaticJoint.cpp ..\..\depends\box2d\source\b2PulleyJoint.cpp ..\..\depends\box2d\source\b2RevoluteJoint.cpp ..\..\depends\box2d\source\b2Settings.cpp ..\..\depends\box2d\source\b2StackAllocator.cpp ..\..\depends\box2d\source\b2TimeOfImpact.cpp ..\..\depends\box2d\source\b2TOISolver.cpp ..\..\depends\box2d\source\b2WeldJoint.cpp ..\..\depends\box2d\source\b2World.cpp ..\..\depends\box2d\source\b2WorldCallbacks.cpp
+         b2BlockAllocator.cpp
+         b2Body.cpp
+         b2BroadPhase.cpp
+         b2CircleContact.cpp
+         b2CircleShape.cpp
+         b2CollideCircle.cpp
+         b2CollidePolygon.cpp
+         b2Collision.cpp
+         b2Contact.cpp
+         b2ContactManager.cpp
+         b2ContactSolver.cpp
+         b2Distance.cpp
+         b2DistanceJoint.cpp
+         b2DynamicTree.cpp
+         b2Fixture.cpp
+         b2FrictionJoint.cpp
+         b2GearJoint.cpp
+         b2Island.cpp
+         b2Joint.cpp
+         b2LineJoint.cpp
+         Generating Code...
+         Compiling...
+         b2Math.cpp
+         b2MouseJoint.cpp
+         b2PolygonAndCircleContact.cpp
+         b2PolygonContact.cpp
+         b2PolygonShape.cpp
+         b2PrismaticJoint.cpp
+         b2PulleyJoint.cpp
+         b2RevoluteJoint.cpp
+         b2Settings.cpp
+         b2StackAllocator.cpp
+         b2TimeOfImpact.cpp
+         b2TOISolver.cpp
+         b2WeldJoint.cpp
+         b2World.cpp
+         b2WorldCallbacks.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"..\..\depends\box2D\build\box2d.lib" /NOLOGO obj\Debug\box2d\b2BlockAllocator.obj
+         obj\Debug\box2d\b2Body.obj
+         obj\Debug\box2d\b2BroadPhase.obj
+         obj\Debug\box2d\b2CircleContact.obj
+         obj\Debug\box2d\b2CircleShape.obj
+         obj\Debug\box2d\b2CollideCircle.obj
+         obj\Debug\box2d\b2CollidePolygon.obj
+         obj\Debug\box2d\b2Collision.obj
+         obj\Debug\box2d\b2Contact.obj
+         obj\Debug\box2d\b2ContactManager.obj
+         obj\Debug\box2d\b2ContactSolver.obj
+         obj\Debug\box2d\b2Distance.obj
+         obj\Debug\box2d\b2DistanceJoint.obj
+         obj\Debug\box2d\b2DynamicTree.obj
+         obj\Debug\box2d\b2Fixture.obj
+         obj\Debug\box2d\b2FrictionJoint.obj
+         obj\Debug\box2d\b2GearJoint.obj
+         obj\Debug\box2d\b2Island.obj
+         obj\Debug\box2d\b2Joint.obj
+         obj\Debug\box2d\b2LineJoint.obj
+         obj\Debug\box2d\b2Math.obj
+         obj\Debug\box2d\b2MouseJoint.obj
+         obj\Debug\box2d\b2PolygonAndCircleContact.obj
+         obj\Debug\box2d\b2PolygonContact.obj
+         obj\Debug\box2d\b2PolygonShape.obj
+         obj\Debug\box2d\b2PrismaticJoint.obj
+         obj\Debug\box2d\b2PulleyJoint.obj
+         obj\Debug\box2d\b2RevoluteJoint.obj
+         obj\Debug\box2d\b2Settings.obj
+         obj\Debug\box2d\b2StackAllocator.obj
+         obj\Debug\box2d\b2TimeOfImpact.obj
+         obj\Debug\box2d\b2TOISolver.obj
+         obj\Debug\box2d\b2WeldJoint.obj
+         obj\Debug\box2d\b2World.obj
+         obj\Debug\box2d\b2WorldCallbacks.obj
+         box2d.vcxproj -> C:\Users\Conna\Documents\GitHub\codekiddy\solution\vs2010\..\..\depends\box2D\build\box2d.lib
+     1>Done Building Project "C:\Users\Conna\Documents\GitHub\codekiddy\solution\vs2010\box2d.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.62

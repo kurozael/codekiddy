@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="codekiddy">
+		<Project filename="codekiddy.cbp" active="1">
+			<Depends filename="box2d.cbp" />
+			<Depends filename="luabind.cbp" />
+		</Project>
+		<Project filename="box2d.cbp">
+		</Project>
+		<Project filename="luabind.cbp">
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,29 @@
+Construct a new Rect object.
+	Rect(float Left, float Top, float Right, float Bottom)
+
+Member variables of a Rect object.
+	Rect.l
+	Rect.t
+	Rect.r
+	Rect.b
+	
+Return the width of the rect.
+	Rect:GetW()
+	
+Return the height of the rect.
+	Rect:GetH()
+	
+Return the Size class of the object.
+	Rect:GetSize()
+	
+Return whether the rect contains a Point.
+	Rect:Contains(Point Point)
+	
+Return the center of the rect as a Point.
+	Rect:GetCenter()
+	
+Return whether another rect is inside the rect.
+	Rect:IsInside(Rect Rect)
+	
+Return whether another rect is overlapping the rect.
+	Rect:IsOverlapped(Rect Rect)

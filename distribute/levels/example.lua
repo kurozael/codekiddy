@@ -1,0 +1,1 @@
+--[[	© 2011 CloudSixteen.com do not share, re-distribute or modify	this file without the permission of its owner(s).--]]--[[	An optional Lua file to be loaded with the level, this Lua file	can handle special scripted events.--]]-- Called when the level is loaded.function LEVEL:OnLoad()	print("You have loaded the Example map.");end;

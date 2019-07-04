@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="codekiddy">
+  <VirtualDirectory Name="source">
+    <File Name="../../source/Camera.h"/>
+    <File Name="../../source/CBoundingBox.h"/>
+    <File Name="../../source/CBuffer.h"/>
+    <File Name="../../source/CDisplayWindow.h"/>
+    <File Name="../../source/CEventHandler.h"/>
+    <File Name="../../source/CFontDescription.h"/>
+    <File Name="../../source/CFontObject.h"/>
+    <File Name="../../source/CFrameBuffer.h"/>
+    <File Name="../../source/CGraphicContext.h"/>
+    <File Name="../../source/CInputContext.h"/>
+    <File Name="../../source/CInputDevice.h"/>
+    <File Name="../../source/CInputEvent.h"/>
+    <File Name="../../source/CLight.h"/>
+    <File Name="../../source/CMarchingSquare.h"/>
+    <File Name="../../source/CMesh.h"/>
+    <File Name="../../source/CNonCopyable.h"/>
+    <File Name="../../source/CPhysBody.h"/>
+    <File Name="../../source/CPhysData.h"/>
+    <File Name="../../source/CPhysFilter.h"/>
+    <File Name="../../source/CPhysJoint.h"/>
+    <File Name="../../source/CPhysListener - Copy.h"/>
+    <File Name="../../source/CPhysListener.h"/>
+    <File Name="../../source/CPhysRay.h"/>
+    <File Name="../../source/CShader.h"/>
+    <File Name="../../source/CSingleton.h"/>
+    <File Name="../../source/CSprite.h"/>
+    <File Name="../../source/CVertexAttribute.h"/>
+    <File Name="../../source/CVertexAttributes.h"/>
+    <File Name="../../source/CVertexBufferObject.h"/>
+    <File Name="../../source/Display.h"/>
+    <File Name="../../source/Events.h"/>
+    <File Name="../../source/Files.h"/>
+    <File Name="../../source/Fonts.h"/>
+    <File Name="../../source/Game.h"/>
+    <File Name="../../source/Inputs.h"/>
+    <File Name="../../source/Lights.h"/>
+    <File Name="../../source/Lua.h"/>
+    <File Name="../../source/Network.h"/>
+    <File Name="../../source/Physics.h"/>
+    <File Name="../../source/Render.h"/>
+    <File Name="../../source/Sounds.h"/>
+    <File Name="../../source/Time.h"/>
+    <File Name="../../source/Util.h"/>
+    <File Name="../../source/Camera.cpp"/>
+    <File Name="../../source/CBoundingBox.cpp"/>
+    <File Name="../../source/CDisplayWindow.cpp"/>
+    <File Name="../../source/CEventHandler.cpp"/>
+    <File Name="../../source/CFontDescription.cpp"/>
+    <File Name="../../source/CFontObject.cpp"/>
+    <File Name="../../source/CFrameBuffer.cpp"/>
+    <File Name="../../source/CGraphicContext.cpp"/>
+    <File Name="../../source/CInputContext.cpp"/>
+    <File Name="../../source/CInputDevice.cpp"/>
+    <File Name="../../source/CInputEvent.cpp"/>
+    <File Name="../../source/CLight.cpp"/>
+    <File Name="../../source/CMarchingSquare.cpp"/>
+    <File Name="../../source/CMesh.cpp"/>
+    <File Name="../../source/CPhysBody.cpp"/>
+    <File Name="../../source/CPhysData.cpp"/>
+    <File Name="../../source/CPhysFilter.cpp"/>
+    <File Name="../../source/CPhysJoint.cpp"/>
+    <File Name="../../source/CPhysListener.cpp"/>
+    <File Name="../../source/CPhysRay.cpp"/>
+    <File Name="../../source/CShader.cpp"/>
+    <File Name="../../source/CSprite.cpp"/>
+    <File Name="../../source/CVertexAttribute.cpp"/>
+    <File Name="../../source/CVertexAttributes.cpp"/>
+    <File Name="../../source/CVertexBufferObject.cpp"/>
+    <File Name="../../source/Display.cpp"/>
+    <File Name="../../source/Events.cpp"/>
+    <File Name="../../source/Files.cpp"/>
+    <File Name="../../source/Fonts.cpp"/>
+    <File Name="../../source/Game.cpp"/>
+    <File Name="../../source/Inputs.cpp"/>
+    <File Name="../../source/Lights.cpp"/>
+    <File Name="../../source/Lua.cpp"/>
+    <File Name="../../source/main.cpp"/>
+    <File Name="../../source/Network.cpp"/>
+    <File Name="../../source/Physics.cpp"/>
+    <File Name="../../source/Render.cpp"/>
+    <File Name="../../source/Sounds.cpp"/>
+    <File Name="../../source/Time.cpp"/>
+    <File Name="../../source/Util.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable">
+      <General OutputFile="../../build/play.exe" IntermediateDirectory="obj/Debug/codekiddy" Command="./play.exe" CommandArguments="" WorkingDirectory="../../build" PauseExecWhenProcTerminates="no"/>
+      <Compiler Required="yes" Options="-g">
+        <IncludePath Value="../../depends/box2d/include"/>
+        <IncludePath Value="../../depends/luabind/include"/>
+        <IncludePath Value="../../depends/clanlib/include"/>
+        <IncludePath Value="../../depends/luajit/include"/>
+        <IncludePath Value="../../depends/awesomium/include"/>
+        <Preprocessor Value="DEBUG"/>
+      </Compiler>
+      <Linker Required="yes" Options="-mwindows">
+        <LibraryPath Value="../../depends/box2d/build" />
+        <LibraryPath Value="../../depends/luabind/build" />
+        <LibraryPath Value="../../depends/clanlib/lib" />
+        <LibraryPath Value="../../depends/luajit/lib" />
+        <LibraryPath Value="../../depends/awesomium/lib" />
+        <LibraryPath Value="../../depends/box2D/build" />
+        <Library Value="box2d" />
+        <Library Value="luabind" />
+        <Library Value="Lua51" />
+        <Library Value="clanApp-static-mt" />
+        <Library Value="clanCore-static-mt" />
+        <Library Value="clanCSSLayout-static-mt" />
+        <Library Value="clanDatabase-static-mt" />
+        <Library Value="clanDisplay-static-mt" />
+        <Library Value="clanGL1-static-mt" />
+        <Library Value="clanGL-static-mt" />
+        <Library Value="clanGUI-static-mt" />
+        <Library Value="clanMikMod-static-mt" />
+        <Library Value="clanNetwork-static-mt" />
+        <Library Value="clanRegExp-static-mt" />
+        <Library Value="clanSound-static-mt" />
+        <Library Value="clanSqlite-static-mt" />
+        <Library Value="clanSWRender-static-mt" />
+        <Library Value="clanVorbis-static-mt" />
+      </Linker>
+      <ResourceCompiler Required="no" Options=""/>
+      <CustomBuild Enabled="no">
+        <CleanCommand></CleanCommand>
+        <BuildCommand></BuildCommand>
+        <SingleFileCommand></SingleFileCommand>
+        <MakefileGenerationCommand></MakefileGenerationCommand>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory></WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild></CustomPostBuild>
+        <CustomPreBuild></CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable">
+      <General OutputFile="../../build/play.exe" IntermediateDirectory="obj/Release/codekiddy" Command="./play.exe" CommandArguments="" WorkingDirectory="../../build" PauseExecWhenProcTerminates="no"/>
+      <Compiler Required="yes" Options="-O2">
+        <IncludePath Value="../../depends/box2d/include"/>
+        <IncludePath Value="../../depends/luabind/include"/>
+        <IncludePath Value="../../depends/clanlib/include"/>
+        <IncludePath Value="../../depends/luajit/include"/>
+        <IncludePath Value="../../depends/awesomium/include"/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Required="yes" Options="-s;-mwindows">
+        <LibraryPath Value="../../depends/box2d/build" />
+        <LibraryPath Value="../../depends/luabind/build" />
+        <LibraryPath Value="../../depends/clanlib/lib" />
+        <LibraryPath Value="../../depends/luajit/lib" />
+        <LibraryPath Value="../../depends/awesomium/lib" />
+        <LibraryPath Value="../../depends/box2D/build" />
+        <Library Value="box2d" />
+        <Library Value="luabind" />
+        <Library Value="Lua51" />
+        <Library Value="clanApp-static-mt" />
+        <Library Value="clanCore-static-mt" />
+        <Library Value="clanCSSLayout-static-mt" />
+        <Library Value="clanDatabase-static-mt" />
+        <Library Value="clanDisplay-static-mt" />
+        <Library Value="clanGL1-static-mt" />
+        <Library Value="clanGL-static-mt" />
+        <Library Value="clanGUI-static-mt" />
+        <Library Value="clanMikMod-static-mt" />
+        <Library Value="clanNetwork-static-mt" />
+        <Library Value="clanRegExp-static-mt" />
+        <Library Value="clanSound-static-mt" />
+        <Library Value="clanSqlite-static-mt" />
+        <Library Value="clanSWRender-static-mt" />
+        <Library Value="clanVorbis-static-mt" />
+      </Linker>
+      <ResourceCompiler Required="no" Options=""/>
+      <CustomBuild Enabled="no">
+        <CleanCommand></CleanCommand>
+        <BuildCommand></BuildCommand>
+        <SingleFileCommand></SingleFileCommand>
+        <MakefileGenerationCommand></MakefileGenerationCommand>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory></WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild></CustomPostBuild>
+        <CustomPreBuild></CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies name="Debug">
+    <Project Name="box2d"/>
+    <Project Name="luabind"/>
+  </Dependencies>
+  <Dependencies name="Release">
+    <Project Name="box2d"/>
+    <Project Name="luabind"/>
+  </Dependencies>
+</CodeLite_Project>

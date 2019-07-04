@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="luabind">
+  <VirtualDirectory Name="depends">
+    <VirtualDirectory Name="luabind">
+      <VirtualDirectory Name="source">
+        <File Name="../../depends/luabind/source/class.cpp"/>
+        <File Name="../../depends/luabind/source/class_info.cpp"/>
+        <File Name="../../depends/luabind/source/class_registry.cpp"/>
+        <File Name="../../depends/luabind/source/class_rep.cpp"/>
+        <File Name="../../depends/luabind/source/create_class.cpp"/>
+        <File Name="../../depends/luabind/source/error.cpp"/>
+        <File Name="../../depends/luabind/source/exception_handler.cpp"/>
+        <File Name="../../depends/luabind/source/function.cpp"/>
+        <File Name="../../depends/luabind/source/inheritance.cpp"/>
+        <File Name="../../depends/luabind/source/link_compatibility.cpp"/>
+        <File Name="../../depends/luabind/source/object_rep.cpp"/>
+        <File Name="../../depends/luabind/source/open.cpp"/>
+        <File Name="../../depends/luabind/source/pcall.cpp"/>
+        <File Name="../../depends/luabind/source/scope.cpp"/>
+        <File Name="../../depends/luabind/source/stack_content_by_name.cpp"/>
+        <File Name="../../depends/luabind/source/weak_ref.cpp"/>
+        <File Name="../../depends/luabind/source/wrapper_base.cpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="include">
+        <VirtualDirectory Name="luabind">
+          <VirtualDirectory Name="detail">
+            <File Name="../../depends/luabind/include/luabind/detail/calc_arity.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/call.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/call_function.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/call_member.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/call_operator_iterate.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/class_cache.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/class_registry.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/class_rep.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/compute_score.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/constructor.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/conversion_storage.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/convert_to_lua.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/debug.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/decorate_type.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/deduce_signature.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/enum_maker.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/format_signature.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/garbage_collector.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/has_get_pointer.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/inheritance.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/instance_holder.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/is_indirect_const.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/link_compatibility.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/make_instance.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/most_derived.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/object_call.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/object_funs.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/object_rep.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/open.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/operator_id.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/other.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/pcall.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/pointee_sizeof.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/pointee_typeid.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/policy.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/primitives.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/property.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/ref.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/signature_match.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/stack_utils.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/typetraits.hpp"/>
+            <File Name="../../depends/luabind/include/luabind/detail/yes_no.hpp"/>
+          </VirtualDirectory>
+          <File Name="../../depends/luabind/include/luabind/adopt_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/back_reference.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/back_reference_fwd.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/class.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/class_info.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/config.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/container_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/copy_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/dependency_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/discard_result_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/error.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/exception_handler.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/from_stack.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/function.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/get_main_thread.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/get_pointer.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/handle.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/iterator_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/luabind.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/lua_include.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/make_function.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/nil.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/object.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/open.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/operator.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/out_value_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/prefix.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/raw_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/return_reference_to_policy.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/scope.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/shared_ptr_converter.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/tag_function.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/typeid.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/value_wrapper.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/version.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/weak_ref.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/wrapper_base.hpp"/>
+          <File Name="../../depends/luabind/include/luabind/yield_policy.hpp"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library">
+      <General OutputFile="../../depends/luabind/build/libluabind.a" IntermediateDirectory="obj/Debug/luabind" Command="./libluabind.a" CommandArguments="" WorkingDirectory="../../depends/luabind/build" PauseExecWhenProcTerminates="yes"/>
+      <Compiler Required="yes" Options="">
+        <IncludePath Value="../../depends/luabind/include"/>
+      </Compiler>
+      <Linker Required="yes" Options="-s">
+      </Linker>
+      <ResourceCompiler Required="no" Options=""/>
+      <CustomBuild Enabled="no">
+        <CleanCommand></CleanCommand>
+        <BuildCommand></BuildCommand>
+        <SingleFileCommand></SingleFileCommand>
+        <MakefileGenerationCommand></MakefileGenerationCommand>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory></WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild></CustomPostBuild>
+        <CustomPreBuild></CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library">
+      <General OutputFile="../../depends/luabind/build/libluabind.a" IntermediateDirectory="obj/Release/luabind" Command="./libluabind.a" CommandArguments="" WorkingDirectory="../../depends/luabind/build" PauseExecWhenProcTerminates="yes"/>
+      <Compiler Required="yes" Options="">
+        <IncludePath Value="../../depends/luabind/include"/>
+      </Compiler>
+      <Linker Required="yes" Options="-s">
+      </Linker>
+      <ResourceCompiler Required="no" Options=""/>
+      <CustomBuild Enabled="no">
+        <CleanCommand></CleanCommand>
+        <BuildCommand></BuildCommand>
+        <SingleFileCommand></SingleFileCommand>
+        <MakefileGenerationCommand></MakefileGenerationCommand>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory></WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild></CustomPostBuild>
+        <CustomPreBuild></CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies name="Debug">
+  </Dependencies>
+  <Dependencies name="Release">
+  </Dependencies>
+</CodeLite_Project>

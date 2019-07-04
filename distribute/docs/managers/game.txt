@@ -1,0 +1,5 @@
+Set whether the game is running.
+	game:SetRunning(bool IsRunning)
+
+Returns whether the game is running.
+	game:IsRunning()

@@ -1,0 +1,66 @@
+Construct a new BoundingBox object.
+	BoundingBox()
+	BoundingBox(float X, float Y, float W, float H)
+	
+Return whether the bounding box intersects another bounding box.
+	BoundingBox:Intersects(BoundingBox Other)
+	
+Return whether the bounding box is touching another bounding box.
+	BoundingBox:IsTouching(BoundingBox Other)
+	
+Return the position at which a line hits the bounding box (empty vector if it doesn't hit).
+	BoundingBox:LineHits(Vec2 StartPos, Vec2 EndPos)
+	
+Return whether a vector is inside the bounding box.
+	BoundingBox:IsInside(Vec2 Vector)
+	
+Return a BoundingBox object where an intersection occurs.
+	BoundingBox:Intersection(BoundingBox Other)
+	
+Return whether the bounding box is off the screen.
+	BoundingBox:OutOfBounds()
+	
+Return the translation vector of the intersection.
+	BoundingBox:Translation(BoundingBox Other)
+	
+Return the maximum Y of the bounding box.
+	BoundingBox:MaxY()
+
+Return the minimum Y of the bounding box.
+	BoundingBox:MinY()
+	
+Return the minimum X of the bounding box.
+	BoundingBox:MinX()
+	
+Return the maximum X of the bounding box.
+	BoundingBox:MaxX()
+	
+Return the height of the bounding box.
+	BoundingBox:GetH()
+	
+Return the width of the bounding box.
+	BoundingBox:GetW()
+	
+Return the X position of the bounding box.
+	BoundingBox:GetX()
+	
+Return the Y position of the bounding box.
+	BoundingBox:GetY()
+	
+Return the center position of the bounding box.
+	BoundingBox:GetCenter()
+	
+Set the overall bounds of the bounding box.
+	BoundingBox:SetBounds(float X, float Y, float W, float H)
+	
+Set the position of the bounding box.
+	BoundingBox:SetPos(Vec2 Position)
+	
+Set the size of the bounding box.
+	BoundingBox:SetSize(Size Size)
+	
+Return the position of the bounding box as a Vec2.
+	BoundingBox:GetPos()
+	
+Return the size of the bounding box as a Size.
+	BoundingBox:GetSize()

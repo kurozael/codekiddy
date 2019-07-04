@@ -1,0 +1,2 @@
+This file is just a ZIP archive. You can open it in an archive viewer such as 7Zip to see the packaged contents.
+It contains files that we wouldn't want users to modify, but yet will allow advanced users to dig into.

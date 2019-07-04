@@ -1,0 +1,14 @@
+Returns the name of a key.
+	inputs:GetKeyName(enum_key Key)
+	
+Returns whether an enum_key is down.
+	inputs:IsKeyDown(enum_key Key)
+
+Returns the keyboard's InputDevice class.
+	inputs:Keyboard()
+	
+Returns the mouse's InputDevice class.
+	inputs:Mouse()
+	
+Returns a the mouse position as a Vec2.
+	inputs:GetMousePos()

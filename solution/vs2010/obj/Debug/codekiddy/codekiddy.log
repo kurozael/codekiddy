@@ -1,0 +1,91 @@
+﻿Build started 30/07/2013 21:05:39.
+     1>Project "C:\Users\Conna\Documents\GitHub\codekiddy\solution\vs2010\codekiddy.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\depends\box2d\include /I..\..\depends\luabind\include /I..\..\depends\clanlib\include /I..\..\depends\luajit\include /I..\..\depends\awesomium\include /ZI /nologo /W3 /WX- /Od /Oy- /D DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\codekiddy\\" /Fd"obj\Debug\codekiddy\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Camera.cpp ..\..\source\CBoundingBox.cpp ..\..\source\CDisplayWindow.cpp ..\..\source\CEventHandler.cpp ..\..\source\CFontDescription.cpp ..\..\source\CFontObject.cpp ..\..\source\CFrameBuffer.cpp ..\..\source\CGraphicContext.cpp ..\..\source\CInputContext.cpp ..\..\source\CInputDevice.cpp ..\..\source\CInputEvent.cpp ..\..\source\CLight.cpp ..\..\source\CMarchingSquare.cpp ..\..\source\CMesh.cpp ..\..\source\CPhysBody.cpp ..\..\source\CPhysData.cpp ..\..\source\CPhysFilter.cpp ..\..\source\CPhysJoint.cpp ..\..\source\CPhysListener.cpp ..\..\source\CPhysRay.cpp ..\..\source\CShader.cpp ..\..\source\CSprite.cpp ..\..\source\CVertexAttribute.cpp ..\..\source\CVertexAttributes.cpp ..\..\source\CVertexBufferObject.cpp ..\..\source\Display.cpp ..\..\source\Events.cpp ..\..\source\Files.cpp ..\..\source\Fonts.cpp ..\..\source\Game.cpp ..\..\source\Inputs.cpp ..\..\source\Lights.cpp ..\..\source\Lua.cpp ..\..\source\main.cpp ..\..\source\Network.cpp ..\..\source\Physics.cpp ..\..\source\Render.cpp ..\..\source\Sounds.cpp ..\..\source\Time.cpp ..\..\source\Util.cpp
+         Util.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\luabind\include\luabind\config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         Time.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Sounds.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Render.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Physics.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Network.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         main.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\luabind\include\luabind\config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         Lua.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\luabind\include\luabind\config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         Lights.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Inputs.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Game.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\luabind\include\luabind\config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         Fonts.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Files.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Events.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Display.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\luabind\include\luabind\config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         CVertexBufferObject.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CVertexAttributes.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\luabind\include\luabind\config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         CVertexAttribute.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\luabind\include\luabind\config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         CSprite.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CShader.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Generating Code...
+         Compiling...
+         CPhysRay.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CPhysListener.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CPhysJoint.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CPhysFilter.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CPhysData.cpp
+         CPhysBody.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CMesh.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CMarchingSquare.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CLight.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CInputEvent.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CInputDevice.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CInputContext.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CGraphicContext.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CFrameBuffer.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CFontObject.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CFontDescription.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CEventHandler.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CDisplayWindow.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         CBoundingBox.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Camera.cpp
+     1>c:\users\conna\documents\github\codekiddy\depends\clanlib\include\clanlib\core\system\mutex.h(44): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Conna\Documents\GitHub\codekiddy\solution\vs2010\codekiddy.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:24.73

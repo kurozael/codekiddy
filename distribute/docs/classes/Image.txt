@@ -1,0 +1,10 @@
+Image objects must be constructed using g_Render:GetImage(string MaterialPath).
+
+Return the width of the image.
+	Image:GetW()
+	
+Return the height of the image.
+	Image:GetH()
+	
+Return the Size class of the image.
+	Image:GetSize()

@@ -1,0 +1,14 @@
+Returns the physics joint's first physics body.
+	PhysJoint:GetBodyA()
+	
+Returns the physics joint's second physics body.
+	PhysJoint:GetBodyB()
+	
+Returns the physics joint's first anchor.
+	PhysJoint:GetAnchorA()
+	
+Returns the physics joint's second anchor.
+	PhysJoint:GetAnchorB()
+	
+Destroys the physics joint.
+	PhysJoint:Destroy()

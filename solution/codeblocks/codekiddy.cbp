@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="codekiddy" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../build/play.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Debug/codekiddy" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+					<Add directory="../../depends/box2d/include" />
+					<Add directory="../../depends/luabind/include" />
+					<Add directory="../../depends/clanlib/include" />
+					<Add directory="../../depends/luajit/include" />
+					<Add directory="../../depends/awesomium/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-mwindows" />
+					<Add directory="../../depends/box2d/build" />
+					<Add directory="../../depends/luabind/build" />
+					<Add directory="../../depends/clanlib/lib" />
+					<Add directory="../../depends/luajit/lib" />
+					<Add directory="../../depends/awesomium/lib" />
+					<Add directory="../../depends/box2D/build" />
+					<Add library="box2d" />
+					<Add library="luabind" />
+					<Add library="Lua51" />
+					<Add library="clanApp-static-mt" />
+					<Add library="clanCore-static-mt" />
+					<Add library="clanCSSLayout-static-mt" />
+					<Add library="clanDatabase-static-mt" />
+					<Add library="clanDisplay-static-mt" />
+					<Add library="clanGL1-static-mt" />
+					<Add library="clanGL-static-mt" />
+					<Add library="clanGUI-static-mt" />
+					<Add library="clanMikMod-static-mt" />
+					<Add library="clanNetwork-static-mt" />
+					<Add library="clanRegExp-static-mt" />
+					<Add library="clanSound-static-mt" />
+					<Add library="clanSqlite-static-mt" />
+					<Add library="clanSWRender-static-mt" />
+					<Add library="clanVorbis-static-mt" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../../build/play.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release/codekiddy" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+					<Add directory="../../depends/box2d/include" />
+					<Add directory="../../depends/luabind/include" />
+					<Add directory="../../depends/clanlib/include" />
+					<Add directory="../../depends/luajit/include" />
+					<Add directory="../../depends/awesomium/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-mwindows" />
+					<Add directory="../../depends/box2d/build" />
+					<Add directory="../../depends/luabind/build" />
+					<Add directory="../../depends/clanlib/lib" />
+					<Add directory="../../depends/luajit/lib" />
+					<Add directory="../../depends/awesomium/lib" />
+					<Add directory="../../depends/box2D/build" />
+					<Add library="box2d" />
+					<Add library="luabind" />
+					<Add library="Lua51" />
+					<Add library="clanApp-static-mt" />
+					<Add library="clanCore-static-mt" />
+					<Add library="clanCSSLayout-static-mt" />
+					<Add library="clanDatabase-static-mt" />
+					<Add library="clanDisplay-static-mt" />
+					<Add library="clanGL1-static-mt" />
+					<Add library="clanGL-static-mt" />
+					<Add library="clanGUI-static-mt" />
+					<Add library="clanMikMod-static-mt" />
+					<Add library="clanNetwork-static-mt" />
+					<Add library="clanRegExp-static-mt" />
+					<Add library="clanSound-static-mt" />
+					<Add library="clanSqlite-static-mt" />
+					<Add library="clanSWRender-static-mt" />
+					<Add library="clanVorbis-static-mt" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../source/Camera.h">
+		</Unit>
+		<Unit filename="../../source/CBoundingBox.h">
+		</Unit>
+		<Unit filename="../../source/CBuffer.h">
+		</Unit>
+		<Unit filename="../../source/CDisplayWindow.h">
+		</Unit>
+		<Unit filename="../../source/CEventHandler.h">
+		</Unit>
+		<Unit filename="../../source/CFontDescription.h">
+		</Unit>
+		<Unit filename="../../source/CFontObject.h">
+		</Unit>
+		<Unit filename="../../source/CFrameBuffer.h">
+		</Unit>
+		<Unit filename="../../source/CGraphicContext.h">
+		</Unit>
+		<Unit filename="../../source/CInputContext.h">
+		</Unit>
+		<Unit filename="../../source/CInputDevice.h">
+		</Unit>
+		<Unit filename="../../source/CInputEvent.h">
+		</Unit>
+		<Unit filename="../../source/CLight.h">
+		</Unit>
+		<Unit filename="../../source/CMarchingSquare.h">
+		</Unit>
+		<Unit filename="../../source/CMesh.h">
+		</Unit>
+		<Unit filename="../../source/CNonCopyable.h">
+		</Unit>
+		<Unit filename="../../source/CPhysBody.h">
+		</Unit>
+		<Unit filename="../../source/CPhysData.h">
+		</Unit>
+		<Unit filename="../../source/CPhysFilter.h">
+		</Unit>
+		<Unit filename="../../source/CPhysJoint.h">
+		</Unit>
+		<Unit filename="../../source/CPhysListener - Copy.h">
+		</Unit>
+		<Unit filename="../../source/CPhysListener.h">
+		</Unit>
+		<Unit filename="../../source/CPhysRay.h">
+		</Unit>
+		<Unit filename="../../source/CShader.h">
+		</Unit>
+		<Unit filename="../../source/CSingleton.h">
+		</Unit>
+		<Unit filename="../../source/CSprite.h">
+		</Unit>
+		<Unit filename="../../source/CVertexAttribute.h">
+		</Unit>
+		<Unit filename="../../source/CVertexAttributes.h">
+		</Unit>
+		<Unit filename="../../source/CVertexBufferObject.h">
+		</Unit>
+		<Unit filename="../../source/Display.h">
+		</Unit>
+		<Unit filename="../../source/Events.h">
+		</Unit>
+		<Unit filename="../../source/Files.h">
+		</Unit>
+		<Unit filename="../../source/Fonts.h">
+		</Unit>
+		<Unit filename="../../source/Game.h">
+		</Unit>
+		<Unit filename="../../source/Inputs.h">
+		</Unit>
+		<Unit filename="../../source/Lights.h">
+		</Unit>
+		<Unit filename="../../source/Lua.h">
+		</Unit>
+		<Unit filename="../../source/Network.h">
+		</Unit>
+		<Unit filename="../../source/Physics.h">
+		</Unit>
+		<Unit filename="../../source/Render.h">
+		</Unit>
+		<Unit filename="../../source/Sounds.h">
+		</Unit>
+		<Unit filename="../../source/Time.h">
+		</Unit>
+		<Unit filename="../../source/Util.h">
+		</Unit>
+		<Unit filename="../../source/Camera.cpp">
+		</Unit>
+		<Unit filename="../../source/CBoundingBox.cpp">
+		</Unit>
+		<Unit filename="../../source/CDisplayWindow.cpp">
+		</Unit>
+		<Unit filename="../../source/CEventHandler.cpp">
+		</Unit>
+		<Unit filename="../../source/CFontDescription.cpp">
+		</Unit>
+		<Unit filename="../../source/CFontObject.cpp">
+		</Unit>
+		<Unit filename="../../source/CFrameBuffer.cpp">
+		</Unit>
+		<Unit filename="../../source/CGraphicContext.cpp">
+		</Unit>
+		<Unit filename="../../source/CInputContext.cpp">
+		</Unit>
+		<Unit filename="../../source/CInputDevice.cpp">
+		</Unit>
+		<Unit filename="../../source/CInputEvent.cpp">
+		</Unit>
+		<Unit filename="../../source/CLight.cpp">
+		</Unit>
+		<Unit filename="../../source/CMarchingSquare.cpp">
+		</Unit>
+		<Unit filename="../../source/CMesh.cpp">
+		</Unit>
+		<Unit filename="../../source/CPhysBody.cpp">
+		</Unit>
+		<Unit filename="../../source/CPhysData.cpp">
+		</Unit>
+		<Unit filename="../../source/CPhysFilter.cpp">
+		</Unit>
+		<Unit filename="../../source/CPhysJoint.cpp">
+		</Unit>
+		<Unit filename="../../source/CPhysListener.cpp">
+		</Unit>
+		<Unit filename="../../source/CPhysRay.cpp">
+		</Unit>
+		<Unit filename="../../source/CShader.cpp">
+		</Unit>
+		<Unit filename="../../source/CSprite.cpp">
+		</Unit>
+		<Unit filename="../../source/CVertexAttribute.cpp">
+		</Unit>
+		<Unit filename="../../source/CVertexAttributes.cpp">
+		</Unit>
+		<Unit filename="../../source/CVertexBufferObject.cpp">
+		</Unit>
+		<Unit filename="../../source/Display.cpp">
+		</Unit>
+		<Unit filename="../../source/Events.cpp">
+		</Unit>
+		<Unit filename="../../source/Files.cpp">
+		</Unit>
+		<Unit filename="../../source/Fonts.cpp">
+		</Unit>
+		<Unit filename="../../source/Game.cpp">
+		</Unit>
+		<Unit filename="../../source/Inputs.cpp">
+		</Unit>
+		<Unit filename="../../source/Lights.cpp">
+		</Unit>
+		<Unit filename="../../source/Lua.cpp">
+		</Unit>
+		<Unit filename="../../source/main.cpp">
+		</Unit>
+		<Unit filename="../../source/Network.cpp">
+		</Unit>
+		<Unit filename="../../source/Physics.cpp">
+		</Unit>
+		<Unit filename="../../source/Render.cpp">
+		</Unit>
+		<Unit filename="../../source/Sounds.cpp">
+		</Unit>
+		<Unit filename="../../source/Time.cpp">
+		</Unit>
+		<Unit filename="../../source/Util.cpp">
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
+

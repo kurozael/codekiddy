@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="luabind" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../depends/luabind/build/libluabind.a" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Debug/luabind" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="../../depends/luabind/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../../depends/luabind/build/libluabind.a" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release/luabind" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="../../depends/luabind/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../depends/luabind/source/class.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/class_info.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/class_registry.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/class_rep.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/create_class.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/error.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/exception_handler.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/function.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/inheritance.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/link_compatibility.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/object_rep.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/open.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/pcall.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/scope.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/stack_content_by_name.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/weak_ref.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/source/wrapper_base.cpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/adopt_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/back_reference.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/back_reference_fwd.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/class.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/class_info.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/config.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/container_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/copy_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/dependency_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/discard_result_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/error.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/exception_handler.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/from_stack.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/function.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/get_main_thread.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/get_pointer.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/handle.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/iterator_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/luabind.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/lua_include.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/make_function.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/nil.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/object.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/open.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/operator.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/out_value_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/prefix.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/raw_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/return_reference_to_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/scope.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/shared_ptr_converter.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/tag_function.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/typeid.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/value_wrapper.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/version.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/weak_ref.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/wrapper_base.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/yield_policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/calc_arity.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/call.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/call_function.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/call_member.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/call_operator_iterate.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/class_cache.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/class_registry.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/class_rep.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/compute_score.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/constructor.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/conversion_storage.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/convert_to_lua.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/debug.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/decorate_type.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/deduce_signature.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/enum_maker.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/format_signature.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/garbage_collector.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/has_get_pointer.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/inheritance.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/instance_holder.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/is_indirect_const.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/link_compatibility.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/make_instance.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/most_derived.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/object_call.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/object_funs.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/object_rep.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/open.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/operator_id.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/other.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/pcall.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/pointee_sizeof.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/pointee_typeid.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/policy.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/primitives.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/property.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/ref.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/signature_match.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/stack_utils.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/typetraits.hpp">
+		</Unit>
+		<Unit filename="../../depends/luabind/include/luabind/detail/yes_no.hpp">
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
+

@@ -1,0 +1,9 @@
+Print to the Lua console.
+	lua:Print(string Text)
+
+Load a Lua script.
+	lua:Include(string ScriptPath)
+	
+Run a string of Lua.
+	lua:DoString(string LuaToDo)
+	

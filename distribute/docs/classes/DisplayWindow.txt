@@ -1,0 +1,44 @@
+Return the size of the display window as a Size.
+	DisplayWindow:GetSize()
+	
+Set the icon of the display window.
+	DisplayWindow:SetIcon(string MaterialPath)
+	
+Minimize the display window.
+	DisplayWindow:Minimize()
+	
+Restore the display window.
+	DisplayWindow:Restore()
+	
+Return whether the display window is visible.
+	DisplayWindow:IsVisible()
+	
+Return whether the display window is minimized.
+	DisplayWindow:IsMinimized()
+	
+Return whether the display window is maximized.
+	DisplayWindow:IsMaximized()
+	
+Return whether the display window is full screen.
+	DisplayWindow:IsFullScreen()
+	
+Set the title of the display window.
+	DisplayWindow:SetTitle(string Title)
+	
+Return the title of the display window.
+	DisplayWidnow:GetTitle()
+
+Return whether the display window is null.
+	DisplayWindow:IsNull()
+	
+Hide the cursor.
+	Display:HideCursor()
+	
+Show the cursor.
+	Display:ShowCursor()
+	
+Set the cursor.
+	Display:SetCursor(string MaterialPath, enum_origin Origin)
+	
+Set the cursor.
+	Display:SetCursor(enum_cursor Type)

@@ -1,0 +1,8 @@
+Construct a new Gradient object.
+	Gradient(Color TopLeft, Color TopRight, Color BottomLeft, Color BottomRight)
+	
+Member variables of a Gradient object.
+	Gradient.top_left
+	Gradient.top_right
+	Gradient.bottom_left
+	Gradient.bottom_right

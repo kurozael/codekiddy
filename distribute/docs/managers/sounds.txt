@@ -1,0 +1,16 @@
+Volume should be a float from 0 to 1.
+
+Play a sound from a file.
+	sounds:PlaySound(string SoundPath, float Volume)
+	
+Play music from a file (FadeInTime is in seconds).
+	sounds:PlayMusic(string SoundPath, float Volume, bool IsLooping, int FadeInTime)
+	
+Stop music from playing.
+	sounds:StopMusic()
+	
+Resume stopped music.
+	sounds:ResumeMusic()
+	
+Stop all sounds.
+	sounds:StopAll()

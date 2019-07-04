@@ -1,0 +1,44 @@
+﻿Build started 30/07/2013 21:05:33.
+     1>Project "C:\Users\Conna\Documents\GitHub\codekiddy\solution\vs2010\luabind.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\depends\luabind\include /nologo /W3 /WX- /Od /Oy- /Gm- /EHsc /RTC1 /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\luabind\\" /Fd"obj\Debug\luabind\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\depends\luabind\source\class.cpp ..\..\depends\luabind\source\class_info.cpp ..\..\depends\luabind\source\class_registry.cpp ..\..\depends\luabind\source\class_rep.cpp ..\..\depends\luabind\source\create_class.cpp ..\..\depends\luabind\source\error.cpp ..\..\depends\luabind\source\exception_handler.cpp ..\..\depends\luabind\source\function.cpp ..\..\depends\luabind\source\inheritance.cpp ..\..\depends\luabind\source\link_compatibility.cpp ..\..\depends\luabind\source\object_rep.cpp ..\..\depends\luabind\source\open.cpp ..\..\depends\luabind\source\pcall.cpp ..\..\depends\luabind\source\scope.cpp ..\..\depends\luabind\source\stack_content_by_name.cpp ..\..\depends\luabind\source\weak_ref.cpp ..\..\depends\luabind\source\wrapper_base.cpp
+         class.cpp
+     1>..\..\depends\luabind\source\class.cpp(25): fatal error C1083: Cannot open include file: 'boost/foreach.hpp': No such file or directory
+         class_info.cpp
+     1>..\..\depends\luabind\include\luabind/lua_include.hpp(31): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         class_registry.cpp
+     1>..\..\depends\luabind\include\luabind/lua_include.hpp(31): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         class_rep.cpp
+     1>..\..\depends\luabind\include\luabind/lua_include.hpp(31): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         create_class.cpp
+     1>..\..\depends\luabind\include\luabind/lua_include.hpp(31): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         error.cpp
+     1>..\..\depends\luabind\include\luabind/config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         exception_handler.cpp
+     1>..\..\depends\luabind\include\luabind/config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         function.cpp
+     1>..\..\depends\luabind\include\luabind/config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         inheritance.cpp
+     1>..\..\depends\luabind\source\inheritance.cpp(11): fatal error C1083: Cannot open include file: 'boost/dynamic_bitset.hpp': No such file or directory
+         link_compatibility.cpp
+     1>..\..\depends\luabind\include\luabind/config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         object_rep.cpp
+     1>..\..\depends\luabind\include\luabind/detail/object_rep.hpp(27): fatal error C1083: Cannot open include file: 'boost/aligned_storage.hpp': No such file or directory
+         open.cpp
+     1>..\..\depends\luabind\include\luabind/lua_include.hpp(31): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         pcall.cpp
+     1>..\..\depends\luabind\include\luabind/config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         scope.cpp
+     1>..\..\depends\luabind\include\luabind/lua_include.hpp(31): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         stack_content_by_name.cpp
+     1>..\..\depends\luabind\include\luabind/lua_include.hpp(31): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         weak_ref.cpp
+     1>..\..\depends\luabind\include\luabind/lua_include.hpp(31): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         wrapper_base.cpp
+     1>..\..\depends\luabind\include\luabind/config.hpp(27): fatal error C1083: Cannot open include file: 'boost/config.hpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Conna\Documents\GitHub\codekiddy\solution\vs2010\luabind.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.33

@@ -1,0 +1,25 @@
+Explanation of how paths work (MaterialPath, SoundPath and FontPath).
+
+[FontPath]
+Default path: fonts/
+Default extension: .ttf
+Default example: example instead of fonts/example.ttf
+
+If the default path for your font is different, or the
+extension is, you can still do: path/example.ext or fonts/example.ext.
+
+[SoundPath]
+Default path: sounds/
+Default extension: .ogg
+Default example: music/song instead of sounds/music/song.ogg
+
+If the default path for your sound is different, or the
+extension is, you can still do: path/music/song.wav or sounds/music/song.wav.
+
+[MaterialPath]
+Default path: material/
+Default extension: .png
+Default example: objects/crate instead of materials/objects/crate.png
+
+If the default path for your material is different, or the
+extension is, you can still do: path/objects/crate.jpg or materials/objects/crate.jpg.

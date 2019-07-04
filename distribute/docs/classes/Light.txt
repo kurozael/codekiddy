@@ -1,0 +1,53 @@
+Set the color of the light.
+	Light:SetColor(Color Color)
+	
+Return the color of the light.
+	Light:GetColor()
+	
+Set the size of the light.
+	Light:SetSize(float W, float H)
+	
+Return the size of the light as a Size.
+	Light:GetSize()
+	
+Set the position of the light.
+	Light:SetPos(Vec2 Position)
+	
+Return the position of the light.
+	Light:GetPos()
+	
+Set the angle of the light.
+	Light:SetAngle(Angle Angle)
+	
+Return the angle of the light.
+	Light:GetAngle()
+	
+Return whether the light is on.
+	Light:IsOn()
+	
+Turn the light on.
+	Light:TurnOn()
+	
+Turn the light off.
+	Light:TurnOff()
+	
+Remove the light.
+	Light:Remove()
+	
+Returns the light's unique ID.
+	Light:GetUniqueID()
+	
+Set the material of the light.
+	Light:SetMaterial(string MaterialPath)
+	
+Set the intensity of the light (from 0 to 1).
+	Light:SetIntensity(float Intensity)
+	
+Return the intensity of the light.
+	Light:GetIntensity()
+	
+Set where on the image the light originates from (each float from 0 to 1).
+	Light:SetOrigin(float X, float Y)
+	
+Return where on the image the light originates from.
+	Light:GetOrigin()

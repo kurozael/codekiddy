@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codekiddy", "codekiddy.vcxproj", "{EE4BF861-3950-AA41-9074-A5280AAD7AB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC545228-A41F-EF4E-84C8-04B3E38129DE} = {DC545228-A41F-EF4E-84C8-04B3E38129DE}
+		{FEDF757A-6832-AD44-86FA-40C8CD582C23} = {FEDF757A-6832-AD44-86FA-40C8CD582C23}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "box2d", "box2d.vcxproj", "{DC545228-A41F-EF4E-84C8-04B3E38129DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luabind", "luabind.vcxproj", "{FEDF757A-6832-AD44-86FA-40C8CD582C23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE4BF861-3950-AA41-9074-A5280AAD7AB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE4BF861-3950-AA41-9074-A5280AAD7AB4}.Debug|Win32.Build.0 = Debug|Win32
+		{EE4BF861-3950-AA41-9074-A5280AAD7AB4}.Release|Win32.ActiveCfg = Release|Win32
+		{EE4BF861-3950-AA41-9074-A5280AAD7AB4}.Release|Win32.Build.0 = Release|Win32
+		{DC545228-A41F-EF4E-84C8-04B3E38129DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC545228-A41F-EF4E-84C8-04B3E38129DE}.Debug|Win32.Build.0 = Debug|Win32
+		{DC545228-A41F-EF4E-84C8-04B3E38129DE}.Release|Win32.ActiveCfg = Release|Win32
+		{DC545228-A41F-EF4E-84C8-04B3E38129DE}.Release|Win32.Build.0 = Release|Win32
+		{FEDF757A-6832-AD44-86FA-40C8CD582C23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEDF757A-6832-AD44-86FA-40C8CD582C23}.Debug|Win32.Build.0 = Debug|Win32
+		{FEDF757A-6832-AD44-86FA-40C8CD582C23}.Release|Win32.ActiveCfg = Release|Win32
+		{FEDF757A-6832-AD44-86FA-40C8CD582C23}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

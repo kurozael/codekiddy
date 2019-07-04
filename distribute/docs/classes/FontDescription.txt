@@ -1,0 +1,41 @@
+Construct a new FontDescription object.
+	FontDescription()
+	
+Set the typeface name of the font description (for Freetype).
+	FontDescription:SetTypefaceName(string FileName)
+	
+Set the typeface name of the font description (for System).
+	FontDescription:SetTypefaceName(string FontName)
+	
+Return the typeface name of the font description.
+	FontDescription:GetTypefaceName()
+	
+Set the font type of the font description.
+	FontDescription:SetFontType(enum_font Type)
+	
+Return the font type of the font description as an enum_font.
+	FontDescription:GetFontType()
+	
+Set whether the font description is anti-aliased.
+	FontDescription:SetAntiAlias(bool AntiAlias)
+	
+Return whether the font description is anti-aliased.
+	FontDescription:GetAntiAlias()
+	
+Set the height of the font description.
+	FontDescription:SetHeight(int Height)
+	
+Return the height of the font description.
+	FontDescription:GetHeight()
+
+Set the weight of the font description.
+	FontDescription:SetWeight(int Weight)
+	
+Return the weight of the font description.
+	FontDescription:GetWeight()
+	
+Update the font description.
+	FontDescription:Update()
+
+Return whether the font description is null.
+	FontDescription:IsNull()

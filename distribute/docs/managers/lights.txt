@@ -1,0 +1,17 @@
+Returns a new light and adds it to the lights system (intensity is a float from 0 to 1).
+	lights:Add(string UniqueID, Color Color, Vec2 Position, float W, float H, float Intensity)
+
+Set the ambience color of the environment.
+	lights:SetAmbience(Color Ambience)
+	
+Returns the ambience color of the environment.
+	lights:GetAmbience()
+	
+Remove a light from the lights system.
+	lights:Remove(string UniqueID)
+	
+Finish drawing the lighting system (call this after drawing objects).
+	lights:Finish()
+	
+Begin drawing the lighting system (call this before drawing objects).
+	lights:Begin()

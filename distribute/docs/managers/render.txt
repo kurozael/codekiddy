@@ -1,0 +1,32 @@
+Draw a pixel on the screen.
+	render:DrawPixel(float X, float Y, Color Color)
+
+Draw a line on the screen.
+	render:DrawLine(float X1, float Y1, float X2, float Y2, Color Color)
+	
+Draw a box on the screen (outline).
+	render:DrawBox(float X, float Y, float W, float H, Color Color)
+	
+Draw a filled box on the screen.
+	render:DrawFill(float X, float Y, float W, float H, Color Color)
+	
+Draw a texture on the screen.
+	render:DrawTexture(Texture Texture, float X, float Y, float W, float H, Color Color)
+	
+Draw an image on the screen (images are more optimized than textures).
+	render:DrawImage(Image Image, float X, float Y, float W, float H, Color Color)
+	
+Draw a gradient on the screen.
+	render:DrawGradient(float X, float Y, float W, float H, Gradient Gradient)
+	
+Draw a circle on the screen.
+	render:DrawCircle(float X, float Y, float Radius, Color Color)
+	
+Draw a gradient circle on the screen.
+	render:DrawGradientCircle(float X, float Y, float Radius, Gradient Gradient)
+	
+Returns a Texture class from a material path.
+	render:GetTexture(string MaterialPath)
+	
+Returns an Image class from a material path (images are more optimized than textures).
+	render:GetImage(string MaterialPath)

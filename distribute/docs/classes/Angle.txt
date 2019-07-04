@@ -1,0 +1,11 @@
+Construct a new Angle object.
+	Angle(float Angle, enum_angle Type)
+	
+Return the degrees of the angle.
+	Angle:Degrees()
+	
+Return the radians of the angle.
+	Angle:Radians()
+	
+Normalize the angle.
+	Angle:Normalize()

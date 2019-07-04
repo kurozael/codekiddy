@@ -1,0 +1,17 @@
+Returns the display's DisplayWindow class.
+	display:Window()
+	
+Returns the display's GraphicContext class.
+	display:Graphics()
+	
+Print to the display console.
+	display:Print(string Text)
+	
+Returns the display's InputContext class.
+	display:Inputs()
+	
+Returns the height of the display.
+	display:GetH()
+	
+Returns the width of the display.
+	display:GetW()

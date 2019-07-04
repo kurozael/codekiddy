@@ -1,0 +1,28 @@
+All directory paths must start from the .exe directory.
+e.g: files:Write("lua/file.txt", "some data")
+
+Delete a file.
+	files:Delete(string FileName)
+
+Copy a file.
+	files:Copy(string From, string To)
+
+Returns whether a file exists.
+	files:Exists(string FileName)
+	
+Returns the data read from a file.
+	files:Read(string FileName)
+	
+Write data to a file.
+	files:Write(string FileName, string Data)
+	
+Returns the extension of a file name.
+	files:GetExt(string FileName)
+	
+Returns the name of a file from a path.
+	files:GetName(string Path)
+	
+Returns an iterator used to grab all files in a directory.
+	files:Scan(string Directory, string Pattern)
+	
+	e.g: for k, v in Files:ScanDirectory("lua/", "*") do

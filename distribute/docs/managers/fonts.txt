@@ -1,0 +1,14 @@
+Add a freetype font (.ttf).
+	fonts:AddFreetype(string FontPath, string UniqueID, int Height)
+	
+Add a system font (e.g: Verdana, Arial, etc).
+	fonts:AddSystem(string FontName, string UniqueID, int Height)
+	
+Returns a font's FontObject class.
+	fonts:GetFont(string UniqueID)
+	
+Returns a font's FontDescription class.
+	fonts:GetDesc(string UniqueID)
+	
+Update a font description.
+	fonts:Update(string UniqueID)

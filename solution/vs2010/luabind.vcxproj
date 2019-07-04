@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FEDF757A-6832-AD44-86FA-40C8CD582C23}</ProjectGuid>
+    <RootNamespace>luabind</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\depends\luabind\build\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\Debug\luabind\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">luabind</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\depends\luabind\build\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\Release\luabind\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">luabind</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\depends\luabind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\depends\luabind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)luabind.lib</OutputFile>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\depends\luabind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\depends\luabind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)luabind.lib</OutputFile>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\depends\luabind\include\luabind\adopt_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\back_reference.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\back_reference_fwd.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\class.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\class_info.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\config.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\container_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\copy_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\dependency_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\discard_result_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\error.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\exception_handler.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\from_stack.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\function.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\get_main_thread.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\get_pointer.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\handle.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\iterator_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\luabind.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\lua_include.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\make_function.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\nil.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\object.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\open.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\operator.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\out_value_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\prefix.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\raw_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\return_reference_to_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\scope.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\shared_ptr_converter.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\tag_function.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\typeid.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\value_wrapper.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\version.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\weak_ref.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\wrapper_base.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\yield_policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\calc_arity.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\call.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\call_function.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\call_member.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\call_operator_iterate.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\class_cache.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\class_registry.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\class_rep.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\compute_score.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\constructor.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\conversion_storage.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\convert_to_lua.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\debug.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\decorate_type.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\deduce_signature.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\enum_maker.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\format_signature.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\garbage_collector.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\has_get_pointer.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\inheritance.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\instance_holder.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\is_indirect_const.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\link_compatibility.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\make_instance.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\most_derived.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\object_call.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\object_funs.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\object_rep.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\open.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\operator_id.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\other.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\pcall.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\pointee_sizeof.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\pointee_typeid.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\policy.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\primitives.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\property.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\ref.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\signature_match.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\stack_utils.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\typetraits.hpp" />
+    <ClInclude Include="..\..\depends\luabind\include\luabind\detail\yes_no.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\depends\luabind\source\class.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\class_info.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\class_registry.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\class_rep.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\create_class.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\error.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\exception_handler.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\function.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\inheritance.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\link_compatibility.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\object_rep.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\open.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\pcall.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\scope.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\stack_content_by_name.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\weak_ref.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\depends\luabind\source\wrapper_base.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

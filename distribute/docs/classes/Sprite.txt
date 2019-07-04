@@ -1,0 +1,54 @@
+Construct a new Sprite object.
+	Sprite()
+	Sprite(string MaterialPath)
+	
+Set the animation delay of the sprite.
+	Sprite:SetDelay(float Seconds)
+	
+Start adding frames to the sprite's animation.
+	Sprite:StartFrames()
+	
+Add an image to the sprite's animation.	
+	Sprite:AddImage(string MaterialPath)
+	
+Add a sheet to the sprite's animation.
+	Sprite:AddSheet(string MaterialPath, int X, int Y, int W, int H, int FramesX, int FramesY, int SpacingX, int SpacingY, int SkipFrames)
+	
+Finish adding frames to the sprite's animation.
+	Sprite:FinishFrames()
+	
+Set the sprite's rotation spot as an enum_origin.
+	Sprite:SetRotateSpot(enum_origin Origin)
+	
+Set the sprite's translation spot as an enum_origin.
+	Sprite:SetTranslateSpot(enum_origin Origin)
+	
+Copies another sprite's modes (is looping, is playing pingpong).
+	Sprite:CopyModes(Sprite Sprite)
+	
+Set whether the sprite is looping.
+	Sprite:SetLooping(bool IsLooping)
+
+Return whether the sprite is looping.
+	Sprite:GetLooping()
+
+Set whether the sprite plays in pingpong mode.
+	Sprite:SetPingPong(bool isPingPong)
+
+Return whether the sprite plays in pingpong mode.
+	Sprite:GetPingPong()
+	
+Copy frames from another sprite.
+	Sprite:CopyFrames(Sprite Sprite)
+	
+Return the width of the sprite.
+	Sprite:GetW()
+	
+Return the height of the sprite.
+	Sprite:GetH()
+	
+Update the sprite (call this in GameUpdate).
+	Sprite:Update()
+	
+Draw the sprite (call this in GameDraw)
+	Sprite:Draw()

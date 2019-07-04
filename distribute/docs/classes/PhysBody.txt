@@ -1,0 +1,125 @@
+Set whether the physics body has fixed rotation.
+	PhysBody:SetFixedRotation(bool FixedRotation)
+
+Returns whether the physics body has fixed rotation.
+	PhysBody:IsFixedRotation()
+
+Set the angular velocity of the physics body.
+	PhysBody:SetAngularVelocity(Angle Angle)
+
+Returns the angular velocity of the physics body.
+	PhysBody:GetAngularVelocity()
+
+Set the velocity of the physics body.
+	PhysBody:SetVelocity(Vec2 Velocity)
+
+Returns the velocity of the physics body.
+	PhysBody:GetVelocity()
+
+Update the physics body as a box.
+	PhysBody:UpdateAsBox(float W, float H)
+
+Update the physics body as a circle.
+	PhysBody:UpdateAsCircle(float Radius)
+
+Set the position of the physics body.
+	PhysBody:SetPos(Vec2 position)
+
+Set the angle of the physics body.
+	PhysBody:SetAngle(Angle Angle)
+
+Returns the angle of the physics body.
+	PhysBody:GetAngle()
+
+Set whether the physics body is static.
+	PhysBody:SetStatic(bool IsStatic)
+	
+Set the angular damping of the physics body.
+	PhysBody:SetAngularDamping(float AngularDamping)
+
+Returns the angular damping of the physics body.
+	PhysBody:GetAngularDamping()
+
+Returns a local position from a world position.
+	PhysBody:GetLocalVector(Vec2 WorldVector)
+
+Returns the local center position of the physics body.
+	PhysBody:GetLocalCenter()
+
+Returns a world position from a local position.
+	PhysBody:GetWorldVector(Vec2 LocalVector)
+
+Returns the world center position of the physics body.
+	PhysBody:GetWorldCenter()
+
+Apply force to the physics body.
+	PhysBody:ApplyForce(Vec2 Force, Vec2 Origin)
+
+Apply an impulse to the physics body.
+	PhysBody:ApplyImpulse(Vec2 Impulse, Vec2 Origin)
+
+Apply torque to the physics body.
+	PhysBody:ApplyTorque(float Torque)
+
+Set the damping of the physics body.
+	PhysBody:SetDamping(float Damping)
+
+Returns the damping of the physics body.
+	PhysBody:GetDamping()
+
+Set the friction of the physics body.
+	PhysBody:SetFriction(float Friction)
+
+Returns the friction of the physics body.
+	PhysBody:GetFriction()
+
+Set the density of the physics body.
+	PhysBody:SetDensity(float Density)
+
+Returns the density of the physics body.
+	PhysBody:GetDensity()
+
+Set whether the physics body is a sensor.
+	PhysBody:SetSensor(bool IsSensor)
+
+Returns whether a position hits the physics body.
+	PhysBody:HitTest(Vec2 Position)
+
+Set whether the physics body is a bullet.
+	PhysBody:SetBullet(bool IsBullet)
+
+Returns whether the physics body is a bullet.
+	PhysBody:IsBullet()
+
+Returns whether the physics body is a sensor.
+	PhysBody:IsSensor()
+
+Set the physics body's data.
+	PhysBody:SetData(string Data)
+
+Returns the physics body's data.
+	PhysBody:GetData()
+	
+Returns whether the physics body is awake.
+	PhysBody:IsAwake()
+	
+Wake the physics body up.
+	PhysBody:WakeUp()
+	
+Put the physics body to sleep.
+	PhysBody:Sleep()
+
+Destroy the physics body.
+	PhysBody:Destroy()
+
+Returns whether the physics body is static.
+	PhysBody:IsStatic()
+
+Set the mass of the physics body.
+	PhysBody:SetMass(float Mass)
+
+Returns the mass of the physics body.
+	PhysBody:GetMass()
+
+Returns the position of the physics body.
+	PhysBody:GetPos()

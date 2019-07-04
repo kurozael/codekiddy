@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="codekiddy" Database="./codekiddy.tags">
+  <Project Name="codekiddy" Path="codekiddy.project" Active="Yes" />
+  <Project Name="box2d" Path="box2d.project" Active="No" />
+  <Project Name="luabind" Path="luabind.project" Active="No" />
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="codekiddy" ConfigName="Debug"/>
+      <Project Name="box2d" ConfigName="Debug"/>
+      <Project Name="luabind" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="codekiddy" ConfigName="Release"/>
+      <Project Name="box2d" ConfigName="Release"/>
+      <Project Name="luabind" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

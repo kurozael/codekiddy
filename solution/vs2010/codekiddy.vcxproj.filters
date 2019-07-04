@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="source">
+			<UniqueIdentifier>{3E21D7C5-C842-A740-831A-C6678BB0BD94}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\source\Camera.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CBoundingBox.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CBuffer.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CDisplayWindow.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CEventHandler.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CFontDescription.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CFontObject.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CFrameBuffer.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CGraphicContext.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CInputContext.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CInputDevice.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CInputEvent.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CLight.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CMarchingSquare.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CMesh.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CNonCopyable.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CPhysBody.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CPhysData.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CPhysFilter.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CPhysJoint.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CPhysListener - Copy.h" />
+		<ClInclude Include="..\..\source\CPhysListener.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CPhysRay.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CShader.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CSingleton.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CSprite.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CVertexAttribute.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CVertexAttributes.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\CVertexBufferObject.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Display.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Events.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Files.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Fonts.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Game.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Inputs.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Lights.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Lua.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Network.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Physics.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Render.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Sounds.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Time.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Util.h">
+			<Filter>source</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\source\Camera.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CBoundingBox.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CDisplayWindow.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CEventHandler.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CFontDescription.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CFontObject.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CFrameBuffer.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CGraphicContext.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CInputContext.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CInputDevice.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CInputEvent.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CLight.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CMarchingSquare.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CMesh.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CPhysBody.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CPhysData.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CPhysFilter.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CPhysJoint.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CPhysListener.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CPhysRay.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CShader.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CSprite.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CVertexAttribute.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CVertexAttributes.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\CVertexBufferObject.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Display.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Events.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Files.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Fonts.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Game.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Inputs.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Lights.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Lua.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\main.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Network.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Physics.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Render.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Sounds.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Time.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\Util.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

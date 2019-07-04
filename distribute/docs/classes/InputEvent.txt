@@ -1,0 +1,23 @@
+Return the mouse position of the event as a Vec2.
+	InputEvent:GetMousePos()
+	
+Return the InputDevice class of the event.
+	InputEvent:GetInputDevice()
+	
+Return the enum_input type of the event.
+	InputEvent:GetType()
+	
+Return the enum_key or enum_mouse id of the event.
+	InputEvent:GetID()
+	
+Return the character string of the event.
+	InputEvent:GetString()
+	
+Return whether shift is held for this event.
+	InputEvent:IsShift()
+	
+Return whether alt is held for this event.
+	InputEvent:IsAlt()
+	
+Return whether ctrl is held for this event.
+	InputEvent:IsCtrl()

@@ -1,0 +1,65 @@
++: Item added.
+-: Item removed.
+*: Item fixed.
+
+[21st June 2012 - 0.7.1]
++ Upgraded ClanLib to 2.3.6 (was using a version that was almost a year old!).
+* Fixed the jittering of tiled textures (applied ceil to camera positions).
+
+[02nd April 2011 - 0.7.0]
++ Added a right-click menu to objects in the level editor.
++ Added a tile size dropdown box for textures in the level editor.
++ Added the ability to select, and then move around objects in the level editor.
++ Added the ability to delete the selected object via the right-click menu or pressing delete.
++ Added support for different brush types, as well as a menu for creating brushes.
++ Added a Send To submenu to each entity's right-click menu.
++ Added the ability to place decals both to the background, and on brushes.
++ Added the ability to duplicate objects from the right-click menu.
+- Removed the disability to overlap textures (just be careful enough to optimize your texture use).
+
+[30th March 2011 - 0.6.2]
++ Added a ToolTip control with support for setting the tool tip of any control.
++ Added a texture browser using the new FolderNav control.
++ Added SimpleMenu and MenuOption controls, to easily create menus.
+
+[29th March 2011 - 0.6.1]
++ Greatly improved the parenting system to use g_Physics:WeldJoint.
++ Added a basic Levels library with support for loading and unloading levels.
++ Added a grid, and right-click panning to the EditorState.
++ Added Image, ImageButton, VScrollBar, ScrollBarGrip and ItemList controls.
+
+[28th March 2011 - 0.5.0]
++ Swiched from Chipmunk to Box2D and completely converted all Lua to
+	support it.
++ Altered the maximum Box2D velocity in Box2D/Common/b2Settings.h.
++ Moving the player with W, S and D too.
++ Added Box2D Bullet functions to Lua.
++ Added g_Physics and PhysBody to the docs.
++ Added a tools library and begin work on the EditorState.
+
+[25th March 2011 - 0.4.4]
++ Added a basic wrapper for Chipmunk Physics to the engine under
+	the g_Physics manager.
++ Began working on converting existing collision system and entity
+	systems over to new Chipmunk Physics wrapper.
+
+[24th March 2011 - 0.4.3]
++ Improved the parenting system, now weapons can be correctly parented.
++ Added weapon functions to the player entity, GiveWeapon, SelectWeapon, etc.
++ Added functions to the returned Material Data table.
+
+[23rd March 2011 - 0.4.2]
++ Greatly improved collision checking and handling.
++ Added the ability to derive an entity from another.
++ Added the Hound entity (derived from the Zombie class).
+
+[21st March 2011 - 0.4.1]
++ Added more functions to the Util library such as util.KeyValuesToTable(keyValues).
+
+[20th March 2011 - 0.4.0]
++ Added the Controls library.
++ Added the Json library for data loading/saving.
++ Added luabind::bind_class_info so we can get class names from Lua.
+
+[Pre-March 2011 - 0.3.9]
++ Loads of other stuff that wasn't documented until now.

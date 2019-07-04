@@ -1,0 +1,22 @@
+Construct a new Vec2 object.
+	Vec2(float X, float Y)
+	Vec2(Vec2 Copy)
+
+Member variables of a Vec2 object.
+	Vec2.x
+	Vec2.y
+	
+Rotate the vector around a hotspot.
+	Vec2:Rotate(Vec2 Hotspot, Angle Angle)
+	
+Return the distance between the vector and another vector.
+	Vec2:Distance(Vec2 Other)
+
+Return the length of the vector.
+	Vec2:Length()
+	
+Return the angle between the vector and another vector.
+	Vec2:Angle(Vec2 Other)
+	
+Return the dot product of the vector and another vector.
+	Vec2:Dot(Vec2 Other)

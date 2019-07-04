@@ -1,0 +1,26 @@
+Return the width of the graphic context.
+	GraphicContext:GetW()
+	
+Return the height of the graphic context.
+	GraphicContext:GetH()
+	
+Return whether the graphic context is null.
+	GraphicContext:IsNull()
+	
+Push a clip rectangle onto the stack.
+	GraphicContext:PushClipRect(Rect Rect)
+	
+Pop a clip rectangle from the stack.
+	GraphicContext:PopClipRect()
+	
+Push a rotation onto the stack.
+	GraphicContext:PushRotation(Angle Angle, Vec2 Position)
+	
+Pop a rotation from the stack.
+	GraphicContext:PopRotation()
+	
+Push a blend mode onto the stack.
+	GraphicContext:PushBlendMode(enum_blend Color, enum_blend Alpha)
+	
+Pop a blend mode from the stack.
+	GraphicContext:PopBlendMode()

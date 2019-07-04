@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="box2d">
+  <VirtualDirectory Name="depends">
+    <VirtualDirectory Name="box2d">
+      <VirtualDirectory Name="source">
+        <File Name="../../depends/box2d/source/b2BlockAllocator.cpp"/>
+        <File Name="../../depends/box2d/source/b2Body.cpp"/>
+        <File Name="../../depends/box2d/source/b2BroadPhase.cpp"/>
+        <File Name="../../depends/box2d/source/b2CircleContact.cpp"/>
+        <File Name="../../depends/box2d/source/b2CircleShape.cpp"/>
+        <File Name="../../depends/box2d/source/b2CollideCircle.cpp"/>
+        <File Name="../../depends/box2d/source/b2CollidePolygon.cpp"/>
+        <File Name="../../depends/box2d/source/b2Collision.cpp"/>
+        <File Name="../../depends/box2d/source/b2Contact.cpp"/>
+        <File Name="../../depends/box2d/source/b2ContactManager.cpp"/>
+        <File Name="../../depends/box2d/source/b2ContactSolver.cpp"/>
+        <File Name="../../depends/box2d/source/b2Distance.cpp"/>
+        <File Name="../../depends/box2d/source/b2DistanceJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2DynamicTree.cpp"/>
+        <File Name="../../depends/box2d/source/b2Fixture.cpp"/>
+        <File Name="../../depends/box2d/source/b2FrictionJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2GearJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2Island.cpp"/>
+        <File Name="../../depends/box2d/source/b2Joint.cpp"/>
+        <File Name="../../depends/box2d/source/b2LineJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2Math.cpp"/>
+        <File Name="../../depends/box2d/source/b2MouseJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2PolygonAndCircleContact.cpp"/>
+        <File Name="../../depends/box2d/source/b2PolygonContact.cpp"/>
+        <File Name="../../depends/box2d/source/b2PolygonShape.cpp"/>
+        <File Name="../../depends/box2d/source/b2PrismaticJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2PulleyJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2RevoluteJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2Settings.cpp"/>
+        <File Name="../../depends/box2d/source/b2StackAllocator.cpp"/>
+        <File Name="../../depends/box2d/source/b2TimeOfImpact.cpp"/>
+        <File Name="../../depends/box2d/source/b2TOISolver.cpp"/>
+        <File Name="../../depends/box2d/source/b2WeldJoint.cpp"/>
+        <File Name="../../depends/box2d/source/b2World.cpp"/>
+        <File Name="../../depends/box2d/source/b2WorldCallbacks.cpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="include">
+        <VirtualDirectory Name="Box2D">
+          <VirtualDirectory Name="Collision">
+            <VirtualDirectory Name="Shapes">
+              <File Name="../../depends/box2d/include/Box2D/Collision/Shapes/b2CircleShape.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Collision/Shapes/b2PolygonShape.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Collision/Shapes/b2Shape.h"/>
+            </VirtualDirectory>
+            <File Name="../../depends/box2d/include/Box2D/Collision/b2BroadPhase.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Collision/b2Collision.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Collision/b2Distance.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Collision/b2DynamicTree.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Collision/b2TimeOfImpact.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="Common">
+            <File Name="../../depends/box2d/include/Box2D/Common/b2BlockAllocator.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Common/b2Math.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Common/b2Settings.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Common/b2StackAllocator.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="Dynamics">
+            <VirtualDirectory Name="Contacts">
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Contacts/b2CircleContact.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Contacts/b2Contact.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Contacts/b2ContactSolver.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Contacts/b2PolygonContact.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Contacts/b2TOISolver.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="Joints">
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2DistanceJoint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2FrictionJoint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2GearJoint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2Joint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2LineJoint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2MouseJoint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2PrismaticJoint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2PulleyJoint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2RevoluteJoint.h"/>
+              <File Name="../../depends/box2d/include/Box2D/Dynamics/Joints/b2WeldJoint.h"/>
+            </VirtualDirectory>
+            <File Name="../../depends/box2d/include/Box2D/Dynamics/b2Body.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Dynamics/b2ContactManager.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Dynamics/b2Fixture.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Dynamics/b2Island.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Dynamics/b2TimeStep.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Dynamics/b2World.h"/>
+            <File Name="../../depends/box2d/include/Box2D/Dynamics/b2WorldCallbacks.h"/>
+          </VirtualDirectory>
+          <File Name="../../depends/box2d/include/Box2D/Box2D.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library">
+      <General OutputFile="../../depends/box2D/build/libbox2d.a" IntermediateDirectory="obj/Debug/box2d" Command="./libbox2d.a" CommandArguments="" WorkingDirectory="../../depends/box2D/build" PauseExecWhenProcTerminates="yes"/>
+      <Compiler Required="yes" Options="">
+        <IncludePath Value="../../depends/box2d/include"/>
+      </Compiler>
+      <Linker Required="yes" Options="-s">
+      </Linker>
+      <ResourceCompiler Required="no" Options=""/>
+      <CustomBuild Enabled="no">
+        <CleanCommand></CleanCommand>
+        <BuildCommand></BuildCommand>
+        <SingleFileCommand></SingleFileCommand>
+        <MakefileGenerationCommand></MakefileGenerationCommand>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory></WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild></CustomPostBuild>
+        <CustomPreBuild></CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library">
+      <General OutputFile="../../depends/box2D/build/libbox2d.a" IntermediateDirectory="obj/Release/box2d" Command="./libbox2d.a" CommandArguments="" WorkingDirectory="../../depends/box2D/build" PauseExecWhenProcTerminates="yes"/>
+      <Compiler Required="yes" Options="">
+        <IncludePath Value="../../depends/box2d/include"/>
+      </Compiler>
+      <Linker Required="yes" Options="-s">
+      </Linker>
+      <ResourceCompiler Required="no" Options=""/>
+      <CustomBuild Enabled="no">
+        <CleanCommand></CleanCommand>
+        <BuildCommand></BuildCommand>
+        <SingleFileCommand></SingleFileCommand>
+        <MakefileGenerationCommand></MakefileGenerationCommand>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory></WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild></CustomPostBuild>
+        <CustomPreBuild></CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies name="Debug">
+  </Dependencies>
+  <Dependencies name="Release">
+  </Dependencies>
+</CodeLite_Project>

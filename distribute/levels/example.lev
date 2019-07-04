@@ -1,0 +1,1 @@
+{"textures":[],"links":[],"brushes":[],"entities":[{"data":[],"width":32,"position":{"y":448,"x":752,"__type":"Vec2"},"class":"Player","angle":{"__type":"Angle","degrees":0},"entIndex":0,"height":32,"keyValues":{"TargetName":""}}]}

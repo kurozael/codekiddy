@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE4BF861-3950-AA41-9074-A5280AAD7AB4}</ProjectGuid>
+    <RootNamespace>codekiddy</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\build\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\Debug\codekiddy\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">play</TargetName>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\build\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\Release\codekiddy\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">play</TargetName>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\depends\box2d\include;..\..\depends\luabind\include;..\..\depends\clanlib\include;..\..\depends\luajit\include;..\..\depends\awesomium\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\depends\box2d\include;..\..\depends\luabind\include;..\..\depends\clanlib\include;..\..\depends\luajit\include;..\..\depends\awesomium\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>..\..\depends\box2D\build\box2d.lib;..\..\depends\luabind\build\luabind.lib;Lua51.lib;clanApp-static-mt.lib;clanCore-static-mt.lib;clanCSSLayout-static-mt.lib;clanDatabase-static-mt.lib;clanDisplay-static-mt.lib;clanGL1-static-mt.lib;clanGL-static-mt.lib;clanGUI-static-mt.lib;clanMikMod-static-mt.lib;clanNetwork-static-mt.lib;clanRegExp-static-mt.lib;clanSound-static-mt.lib;clanSqlite-static-mt.lib;clanSWRender-static-mt.lib;clanVorbis-static-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)play.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\depends\box2d\build;..\..\depends\luabind\build;..\..\depends\clanlib\lib;..\..\depends\luajit\lib;..\..\depends\awesomium\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDataBaseFileName>$(OutDir)play.pdb</ProgramDataBaseFileName>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\depends\box2d\include;..\..\depends\luabind\include;..\..\depends\clanlib\include;..\..\depends\luajit\include;..\..\depends\awesomium\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\depends\box2d\include;..\..\depends\luabind\include;..\..\depends\clanlib\include;..\..\depends\luajit\include;..\..\depends\awesomium\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>..\..\depends\box2D\build\box2d.lib;..\..\depends\luabind\build\luabind.lib;Lua51.lib;clanApp-static-mt.lib;clanCore-static-mt.lib;clanCSSLayout-static-mt.lib;clanDatabase-static-mt.lib;clanDisplay-static-mt.lib;clanGL1-static-mt.lib;clanGL-static-mt.lib;clanGUI-static-mt.lib;clanMikMod-static-mt.lib;clanNetwork-static-mt.lib;clanRegExp-static-mt.lib;clanSound-static-mt.lib;clanSqlite-static-mt.lib;clanSWRender-static-mt.lib;clanVorbis-static-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)play.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\depends\box2d\build;..\..\depends\luabind\build;..\..\depends\clanlib\lib;..\..\depends\luajit\lib;..\..\depends\awesomium\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\Camera.h" />
+    <ClInclude Include="..\..\source\CBoundingBox.h" />
+    <ClInclude Include="..\..\source\CBuffer.h" />
+    <ClInclude Include="..\..\source\CDisplayWindow.h" />
+    <ClInclude Include="..\..\source\CEventHandler.h" />
+    <ClInclude Include="..\..\source\CFontDescription.h" />
+    <ClInclude Include="..\..\source\CFontObject.h" />
+    <ClInclude Include="..\..\source\CFrameBuffer.h" />
+    <ClInclude Include="..\..\source\CGraphicContext.h" />
+    <ClInclude Include="..\..\source\CInputContext.h" />
+    <ClInclude Include="..\..\source\CInputDevice.h" />
+    <ClInclude Include="..\..\source\CInputEvent.h" />
+    <ClInclude Include="..\..\source\CLight.h" />
+    <ClInclude Include="..\..\source\CMarchingSquare.h" />
+    <ClInclude Include="..\..\source\CMesh.h" />
+    <ClInclude Include="..\..\source\CNonCopyable.h" />
+    <ClInclude Include="..\..\source\CPhysBody.h" />
+    <ClInclude Include="..\..\source\CPhysData.h" />
+    <ClInclude Include="..\..\source\CPhysFilter.h" />
+    <ClInclude Include="..\..\source\CPhysJoint.h" />
+    <ClInclude Include="..\..\source\CPhysListener - Copy.h" />
+    <ClInclude Include="..\..\source\CPhysListener.h" />
+    <ClInclude Include="..\..\source\CPhysRay.h" />
+    <ClInclude Include="..\..\source\CShader.h" />
+    <ClInclude Include="..\..\source\CSingleton.h" />
+    <ClInclude Include="..\..\source\CSprite.h" />
+    <ClInclude Include="..\..\source\CVertexAttribute.h" />
+    <ClInclude Include="..\..\source\CVertexAttributes.h" />
+    <ClInclude Include="..\..\source\CVertexBufferObject.h" />
+    <ClInclude Include="..\..\source\Display.h" />
+    <ClInclude Include="..\..\source\Events.h" />
+    <ClInclude Include="..\..\source\Files.h" />
+    <ClInclude Include="..\..\source\Fonts.h" />
+    <ClInclude Include="..\..\source\Game.h" />
+    <ClInclude Include="..\..\source\Inputs.h" />
+    <ClInclude Include="..\..\source\Lights.h" />
+    <ClInclude Include="..\..\source\Lua.h" />
+    <ClInclude Include="..\..\source\Network.h" />
+    <ClInclude Include="..\..\source\Physics.h" />
+    <ClInclude Include="..\..\source\Render.h" />
+    <ClInclude Include="..\..\source\Sounds.h" />
+    <ClInclude Include="..\..\source\Time.h" />
+    <ClInclude Include="..\..\source\Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\Camera.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CBoundingBox.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CDisplayWindow.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CEventHandler.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CFontDescription.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CFontObject.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CFrameBuffer.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CGraphicContext.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CInputContext.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CInputDevice.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CInputEvent.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CLight.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CMarchingSquare.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CMesh.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CPhysBody.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CPhysData.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CPhysFilter.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CPhysJoint.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CPhysListener.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CPhysRay.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CShader.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CSprite.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CVertexAttribute.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CVertexAttributes.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\CVertexBufferObject.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Display.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Events.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Files.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Fonts.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Game.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Inputs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Lights.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Lua.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\main.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Network.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Physics.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Render.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Sounds.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Time.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\source\Util.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

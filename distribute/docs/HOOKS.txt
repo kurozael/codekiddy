@@ -1,0 +1,100 @@
+Use hooks.Add(hookName, uniqueID, function(...) end) to add an event hook.
+
+Called when two entities begin contact.
+	EntitiesBeginContact(Entity FirstEntity, Entity SecondEntity, Table CollisionInfo)
+
+Called when two entities end contact.
+	EntitiesEndContact(Entity FirstEntity, Entity SecondEntity, Table CollisionInfo)
+
+Called before a collision is solved.
+	PreSolveCollision(Entity FirstEntity, Entity SecondEntity, Table CollisionInfo)
+
+Called after a collision is solved.
+	PostSolveCollision(Entity FirstEntity, Entity SecondEntity, Table CollisionInfo)
+
+Called when an entity takes damage.
+	EntityTakeDamage(Entity Entity, DamageInfo DamageInfo)
+
+Called when two entities are involved in a collision.
+	EntitiesCollide(Table CollisionInfo)
+
+Called when an entity is killed.
+	EntityKilled(Entity Entity, DamageInfo DamageInfo)
+
+Called when a mouse button is released on a control.
+	ControlMouseButtonRelease(Control Control, enum_mouse Button)
+
+Called when a mouse button is pressed on a control.
+	ControlMouseButtonPress(Control Control, enum_mouse Button)
+
+Called when the control focus has changed.
+	ControlFocusChange(Control Focused)
+	
+Called when a mouse button is released.
+	MouseButtonRelease(enum_mouse Button)
+
+Called when a mouse button is pressed.
+	MouseButtonPress(enum_mouse Button)
+	
+Called when a mouse button is double clicked.
+	MouseDoubleClick(enum_mouse Button)
+	
+Called to get whether the lighting should be drawn.
+	ShouldDrawLighting()
+	
+Called to get whether the objects should be drawn.
+	ShouldDrawObjects()
+	
+Called when there is a key event.
+	KeyEvent(InputEvent Event)
+
+Called when there is a mouse event.
+	MouseEvent(InputEvent Event)
+	
+Called when the client has connected to the server.
+	Connected()
+	
+Called when the client has disconnected from the server.
+	Disconnected()
+	
+Called when a client has joined the server.
+	ClientJoin(GameConnection Connection)
+	
+Called when a client has left the server.
+	ClientLeave(GameConnection Connection)
+	
+Called when the server receives a network event.
+	ServerEventReceive(GameConnection Connection, string Name, string Data)
+	
+Called when the client receives a network event.
+	ClientEventReceive(string Name, string Data)
+
+Called when a key is pressed.
+	KeyPress(enum_key Key, String Str)
+
+Called when a key is released.
+	KeyRelease(enum_key Key, String Str)
+
+Called when the game should be updated.
+	UpdateGame(float DeltaTime)
+	
+Called just before the lighting is drawn.
+	PreDrawLighting()
+	
+Called just after the lighting is drawn.
+	PostDrawLighting()
+	
+Called when the objects should be drawn.
+	DrawObjects()
+
+Called when the display should be drawn.
+	DrawDisplay()
+
+Called when the game has initialized.
+	InitGame()
+
+Called when the game is quit.
+	QuitGame()
+
+Called when there is a quit event.
+	QuitEvent()

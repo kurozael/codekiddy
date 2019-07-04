@@ -1,0 +1,26 @@
+Returns a new distance joint.
+	physics:DistanceJoint(PhysBody BodyA, PhysBody BodyB, Vec2 AnchorA, Vev2 AnchorB)
+
+Returns a new circle physics body.
+	physics:CreateCircle(float Radius)
+	
+Returns a new weld joint.
+	physics:WeldJoint(PhysBody BodyA, PhysBody BodyB, Vec2 Anchor)
+	
+Returns a new box physics body.
+	physics:CreateBox(float W, float H)
+	
+Perform a ray cast of all physics bodies.
+	physics:RayCast(Vec2 StartPos, Vec2 EndPos)
+	
+Destroy a physics joint.
+	physics:Destroy(PhysJoint Joint)
+	
+Destroy a physics body.
+	physics:Destroy(PhysBody Body)
+	
+Set the gravity of the world.
+	physics:SetGravity(Vec2 Gravity)
+	
+Returns the gravity of the world.
+	physics:GetGravity()

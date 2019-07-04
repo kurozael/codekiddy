@@ -1,0 +1,8 @@
+Construct a new Color object.
+	Color(float R, float G, float B, float A)
+	
+Member variables of a Color object.
+	Color.r
+	Color.g
+	Color.b
+	Color.a

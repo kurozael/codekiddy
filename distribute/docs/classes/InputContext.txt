@@ -1,0 +1,11 @@
+Return the amount of keyboards.
+	InputContext:GetKeyboardCount()
+	
+Return the amount of mice.
+	InputContext:GetMouseCount()
+	
+Get the keyboard's InputDevice class.
+	InputContext:GetKeyboard()
+	
+Get the mouse's InputDevice class.
+	InputContext:GetMouse()

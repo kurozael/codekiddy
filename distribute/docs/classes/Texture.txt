@@ -1,0 +1,10 @@
+Texture objects must be constructed using g_Render:GetTexture(string MaterialPath).
+
+Return the width of the texture.
+	Texture:GetW()
+	
+Return the height of the texture.
+	Texture:GetH()
+	
+Return the Size class of the texture.
+	Texture:GetSize()
